@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vehiculo">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="barco" />
+                <xs:element name=" bicicleta" />
+                <xs:element name="coche" />
+                <xs:element name="tren" />
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
